@@ -12,18 +12,20 @@ npm : 8.19.3
 
 ## How to start project
 1. Install node
+```
+On windows = https://phoenixnap.com/kb/install-node-js-npm-on-windows 
+On Linux (ubuntu)  =  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+On Mac OS  = https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac 
+```
 2. Install dependecies :
 ```
 npm instal
 ```
 3. Run this project use command :
-
-
 ```
 npm run start
 
 ```
-
 
 ## Available Scripts
 
