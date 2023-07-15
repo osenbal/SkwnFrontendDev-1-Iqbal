@@ -60,6 +60,22 @@ const Navbar = () => {
 
             <div className="overlay_menu_content">
                 <MenuList className={'overlay_menu_list'} />
+                
+                <div className="btn_container_mobile nav_action d_flex flex_col rowGap_1">
+                    <Button 
+                        text="Sign Up"
+                        className="bg_brown_3 border_radius_2"
+                        textClassName="color_brown_text_1"
+                        onClick={() => {}}
+                    />
+                    <Button
+                        isSquare={true}
+                        icon={<img src="./assets/icons/ico_shopping_bag.svg" alt="shopping bag" />}
+                        iconPosition="left"
+                        className="bg_brown_1 border_radius_2"
+                        onClick={() => {}}
+                    />
+                </div>
             </div>
         </div>
       </nav>    
