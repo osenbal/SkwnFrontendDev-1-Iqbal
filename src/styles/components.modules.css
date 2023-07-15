@@ -1,0 +1,34 @@
+/* Button style */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btn_square {
+    padding: 12px;
+}
+.btn_sm {
+    padding: 12px 24px;
+}
+.btn_md {
+    padding: 16px 24px;
+}
+.btn_lg {
+    padding: 22px 36px;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1108px) {
+    .btn:hover {
+        transform: scale(1.01);
+        transition: all 0.3s ease-in-out;
+    }
+}

@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## VERSION MANAGER 
+This project use this version
+
+node : 16.19.0
+
+npm : 8.19.3
+
+
+## How to start project
+1. Install node
+2. Install dependecies :
+```
+npm instal
+```
+3. Run this project use command :
+
+
+```
+npm run start
+
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:

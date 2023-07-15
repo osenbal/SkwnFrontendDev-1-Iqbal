@@ -1,0 +1,122 @@
+.footer {
+    margin: 80px 100px;
+    color: #667085;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container_left_side {
+    row-gap: 69px;
+}
+
+.footer_detail_institution {
+    max-width: 504px;
+    row-gap: 28.5px;
+}
+
+.footer_logo {
+    width: 97.257px;
+    height: 29px;
+}
+
+.footer_desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer_copyright {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* right side */
+.container_right_side {
+    column-gap: 52px
+}
+
+.footer_map {
+    margin-top: 25px;
+    list-style-type: none;
+    row-gap: 30px;
+}
+
+.footer_container_map > p {
+    color: #101828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer_map li a {
+    text-decoration: none;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@media screen and (max-width: 1108px) {
+    .footer {
+        margin-top: 35.89px;
+        margin-bottom: 83px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .footer {
+        flex-direction: column !important;
+        align-items: center;
+        row-gap: 35px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer_detail_institution {
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .footer_detail_institution p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 24px; /* 200% */
+    }
+
+    .footer_copyright {
+       display: none;
+    }
+
+    .container_right_side {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .container_right_side .footer_container_map{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer_container_map > p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .footer_container_map li a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

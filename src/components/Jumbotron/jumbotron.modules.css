@@ -1,0 +1,139 @@
+.jumbotron {
+    max-height: 709px;
+    column-gap: 64px;
+}
+
+.jumbotron_left_side {
+    flex: 1;
+    padding: 160px 0;
+}
+.jumbotron_left_side > div {
+    max-width: 712px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+/* right side */
+.jumbotron_right_side {
+    position: relative;
+}
+.jumbotron_featured {
+    width: 100%;
+    height: 100%;
+    min-width: 522px;
+    object-fit: cover;
+}
+.jumbotron_action_right {
+    position: absolute;
+    bottom: 103px;
+    left: 48px;
+}
+.highlighted_text {
+    position: absolute;
+    top: 28px;
+    left: 21px;
+    font-size: 16px;
+}
+.jumbotron_action_right > h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .jumbotron_left_side .jumbotron_title {
+        font-size: 5vw !important;
+    }
+    .btn_search_catalog > p, .btn_watch_videos > p {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .jumbotron {
+        max-height: 100%;
+    }
+    .jumbotron_left_side {
+        padding: 32px 16px;
+    }
+    .jumbotron_left_side .jumbotron_title {
+        font-size: 32px !important;
+        line-height: 48px !important;
+    }
+    .jumbotron_left_side > div {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btn_search_catalog, .btn_watch_videos {
+        padding: 16px 24px;   
+    } 
+    .btn_search_catalog > p, .btn_watch_videos > p {
+        font-size: 14px;
+    }
+
+    /* right side */
+    .jumbotron_right_side {
+        max-height: 370px;
+    }
+    .jumbotron_featured {
+        min-width: 100%;
+        max-height: 370px;
+    }
+    .jumbotron_action_right {
+        bottom: 24px;
+        left: 20px;
+    }
+    .jumbotron_action_right > h2 {
+        font-size: 48px;
+        font-weight: 400;
+    }
+    .btn_price {
+        padding: 8px 16px;
+    }
+    .btn_price > p {
+        font-size: 16px;
+    }
+    .btn_view_details {
+        padding: 12px 16px;
+    }
+    .btn_view_details > p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* right side */
+    .jumbotron_right_side {
+        max-height: 233px;
+    }
+    .jumbotron_featured {
+        min-width: 100%;
+        max-height: 233px;
+    }
+    .jumbotron_action_right > h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .highlighted_text {
+        font-size: 12px;
+    }
+    .btn_price {
+        padding: 8px 16px;
+        height: 36px;
+        width: 68px;
+    }
+    .btn_price > p {
+        font-size: 14px;
+    }
+    .btn_view_details {
+        padding: 12px 16px;
+    }
+    .btn_view_details > p {
+        font-size: 12px;
+    }
+}

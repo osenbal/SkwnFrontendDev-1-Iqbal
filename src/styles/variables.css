@@ -1,0 +1,27 @@
+/* Define Global Variable */
+:root {
+    /* Color Text */
+    --color-black: #000000;
+    --color-brown_1: #2f241f;
+    --color-brown_2: #553b33;
+    --color-brown_3: #e5f0b6;
+    --color-brown_4: #817253;
+    
+    --color-gray_1: #FCFAFA;
+    --color-white: #ffffff;
+    
+  
+    /* Size Text */
+  
+    /* Color Background */
+  
+    /* screen size */
+    --screen-md: 768px;
+    --screen-lg: 1024px;
+    --screen-xl: 1280px;
+    --screen-2xl: 1536px;
+  
+    /* break point */
+    --breakpoint-mobile-max: 1108px;
+  }
+  

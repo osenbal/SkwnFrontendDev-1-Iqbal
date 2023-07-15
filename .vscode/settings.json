@@ -1,0 +1,7 @@
+{
+  // "editor.lineNumbers": "off",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 500,
+  "editor.defaultFormatter": "vscode.html-language-features"
+}
